@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    border: 10px groove rgb(72, 255, 48);
+    background-image: url(./pexels-irina-iriser-1590549.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Rest{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 30px;
+}
+.left1{
+    background: black;
+    border: 5px solid red;
+    border-radius: 30px;
+    padding: 4px;
+    width: 350px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.Rest1{
+    background: black;
+    border: 5px solid red;
+    border-radius: 60px;
+    padding-inline:12px;
+    margin-left: -150px;
+    width: 500px;
+    font-size: 1.5rem;
+    padding-left: 90px;
+}
+.Rest2{
+    background: black;
+    border: 5px solid red;
+    width: 380px;
+    border-radius: 35px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.left2 {
+    display: flex;
+    justify-content: space-around;
+}
+.offers{
+    text-decoration: underline;
+    text-align: center;
+    padding:30px 10px;
+    font-weight: 600;
+    font-size: 18px;
+    height: 300px;
+    width: 350px;
+    border: 5px solid gray;
+    color: black;
+    border-radius: 50%;
+    background: rgb(101, 219, 190);
+    margin-top: 300px;
+}
+.form {
+    width: 300px;
+    border: 5px dashed red;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: white;
+    color: rgb(241, 134, 115);
+    margin-right: 200px;
+}
+h2{
+    border-bottom: 1px solid;
+}
+.veg1{
+    width: 400px;
+    height: auto;
+    text-align: center;
+    border: 5px solid red;
+    margin-inline: auto;
+    border-radius: 25px;
+    background: black;
+    color: white;
+}
+.veg1 p{
+    font-size: 1.5rem;
+}
+
+.veg2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: rgb(4, 4, 188);
+    margin: 20px 0px;
+}
+
+.Disk{
+    background: aqua;
+    border: 2px solid green;
+    width: 250px;
+    border-radius: 30px;
+    
+}
